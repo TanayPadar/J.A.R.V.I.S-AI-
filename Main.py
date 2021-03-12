@@ -1,4 +1,4 @@
-#J.A.R.V.I.S by JP 
+#J.A.R.V.I.S by Tanay Padar
 #Youtube Channel Link -: https://tinyurl.com/1smu75d8
 #Youtube Channel Name -: Junior Programmer 
 
@@ -72,7 +72,7 @@ if __name__ == "__main__":
             os.startfile(npath)
 
 #Open OBS Studio
-         elif "open command prompt" in query:
+         elif "open OBS Studio" in query:
              opath = "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\OBS Studio"
              os.startfile(opath)
              
