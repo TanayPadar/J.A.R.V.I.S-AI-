@@ -86,7 +86,7 @@ if __name__ == "__main__":
 
 #Play Music
         elif "play music" in query:
-            music_dir = "C:\\Users\\Manisha\\Downloads\\Song.mp3"
+            music_dir =“Enter your Song Location"
             songs = os.listdir(music_dir)
             os.startfile(os.path,join(music_dir,songs[0]))
 
@@ -142,7 +142,7 @@ if __name__ == "__main__":
                 speak ("Sorry Sir , i am not able to sent this email .")
 
 #Closing Loop 
-        elif "thank you " in query :
+        elif "thank you" in query :
             speak ("Thanks for using me . Have a good Day!")
             sys.exit()
 
